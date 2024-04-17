@@ -1,0 +1,15 @@
+.service-item {
+    text-align: center;
+}
+
+.service-item .icon {
+    margin-bottom: 1rem;
+}
+
+.service-description{
+    color: darkgray;
+}
+
+.icon img {
+    width: 200px;
+}

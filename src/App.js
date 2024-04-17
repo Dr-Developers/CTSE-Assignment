@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-pascal-case */
-import Login_page from "./pages/login_page/login_page";
 import "./App.css";
+import Home_Page from "./pages/home_page/home_page";
 
 function App() {
-  return <Login_page />;
+  return <Home_Page />;
 }
 
 export default App;

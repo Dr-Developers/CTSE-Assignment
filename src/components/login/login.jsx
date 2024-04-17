@@ -9,6 +9,7 @@ import {
 } from "mdb-react-ui-kit";
 import "./login.css";
 import logo from "../../assets/images/logo-no-background.png";
+import login_image from "../../assets/images/login-image.png";
 
 const Login = () => {
   return (
@@ -70,8 +71,8 @@ const Login = () => {
 
       <MDBCol col="6">
         <img
-          src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg"
-          class="w-100 rounded-4 shadow-4"
+          src={login_image}
+          className="w-100 rounded-4 shadow-4"
           alt=""
           fluid
         />

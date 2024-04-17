@@ -1,0 +1,18 @@
+.image-holder{
+    width: 70%;
+    height: auto;
+}
+
+.hero-section {
+    height: 70vh;
+}
+
+@media (max-width: 768px) {
+    .image-holder{
+        padding-top: 30px;
+    }
+
+    .welcome-text{
+        padding-top: 50px;
+    }
+}
